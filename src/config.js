@@ -22,11 +22,11 @@ export default class Config {
     // 默认的app server使用端口是8888，注意端口号别忘记了。
     // 上线建议使用https，使用https更安全。
     //static APP_SERVER = 'http://app.wildfirechat.net:8888';
-    static APP_SERVER = 'https://app.wildfirechat.net';
+    static APP_SERVER = 'http://43.140.224.228:8888';
 
     // 组织结构服务地址，如果没有部署组织结构服务，或者不需要组织结构的话，可置为 null
     // 组织结构项目：https://github.com/wildfirechat/organization-platform 或 https://gitee.com/wfchat/organization-platform
-    static ORGANIZATION_SERVER = 'https://org.wildfirechat.cn';
+    static ORGANIZATION_SERVER = null;
 
     // 野火二维码 scheme，不要修改，如果需要修改的话，所有端都需要一起修改
     static QR_CODE_PREFIX_PC_SESSION = "wildfirechat://pcsession/";
@@ -60,7 +60,7 @@ export default class Config {
 
     static SECRET_CHAT_MEDIA_DECODE_SERVER_PORT = 7982;
     // 如果不支持工作台，将其置空即可
-    static OPEN_PLATFORM_WORK_SPACE_URL = 'https://open.wildfirechat.cn/work.html';
+    static OPEN_PLATFORM_WORK_SPACE_URL = '';
     static OPEN_PLATFORM_SERVE_PORT = 7983;
 
     // 允许主动加入多人音视频通话
